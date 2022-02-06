@@ -1,0 +1,39 @@
+
+.bottom,
+#clock {
+    /* display: flex; */
+    border-radius: 10px 10px 10px 10px;
+    border: 7px solid black;
+    position: relative;
+    top: 200px;
+    left: 300px;
+    width: 500px;
+    height: 190px;
+    padding-top: 50px;
+    background-image: linear-gradient(#c4b708, #0dbb32);
+}
+
+
+#time,
+#min,
+#b {
+    font-size: 100px;
+    margin-left: 20px;
+}
+
+.btn {
+    font-weight: 30px;
+    height: 30px;
+    width: 100px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.bbn {
+    margin-left: 100px;
+    ;
+}
+
+.btn:hover {
+    background-color: orangered;
+}
